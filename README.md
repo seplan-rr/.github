@@ -1,1 +1,1 @@
-# .github
+# Coordenação Geral de Projetos Estratégicos - CGPRE
