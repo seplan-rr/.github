@@ -1,0 +1,8 @@
+{
+    "name": "CGPRE Workflow",
+    "description": "CGPRE CI workflow",
+    "iconName": "octicon rocket",
+    "categories": [
+        "Continuous Integration"
+    ]
+}

@@ -1,0 +1,16 @@
+name: CGPRE CI
+
+on:
+  push:
+    branches: ["main", "dev", "prod"]
+  pull_request:
+    branches: ["main", "dev", "prod"]
+
+jobs:
+  build_on: ubuntu-latest
+
+  steps:
+    - uses: actions/checkout@v3
+
+    - name: Run test script
+      run: echo test
