@@ -1,0 +1,25 @@
+name: Relatório de Feature
+description: Crie um relatório de feature
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por tomar um tempo para escrever esse relatório de feature ❤️!
+  - type: input
+    id: contact
+    attributes:
+      label: Detalhes de contato
+      description: Como podemos entrar em contato com você se for preciso obter mais informações?
+      placeholder: exemplo@exemplo.com
+    validations:
+      required: false
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: O que você quer adicionar/modificar no sistema?
+      description: Descreva da a feature e o objetivo dela da forma mais detalhada possível.
+      placeholder: Nos digas as funcionalidades, requisitos, objetivo e impacto da feature!
+    validations:
+      required: true
